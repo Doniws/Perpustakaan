@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perpustakaan</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Perpustakaan</title>
+    </head>
+
+    <body>
+        <main class="container">
+            <h1>Perpustakaan</h1>
+            <div class="form-container">
+                <h2>Masukkan Buku Baru</h2>
+                <form class="add-form">
+                    <span>
+                        <label for="title">Judul Buku</label>
+                        <input type="text" id="title" name="title" required />
+                    </span>
+                    <span>
+                        <label for="author">Penulis</label>
+                        <input type="text" id="author" name="author" required />
+                    </span>
+                    <span>
+                        <label for="year">Tahun</label>
+                        <input type="text" id="year" name="year" required />
+                    </span>
+                    <div class="completed">
+                        <label for="isComplete">Selesai dibaca</label>
+                        <input type="checkbox" class="checkbox" name="isComplete" />
+                    </div>
+                    <button type="submit" class="submit-button">
+                        Tambahkan
+                    </button>
+                </form>
+            </div>
+            <div class="edit-form-container" style="display: none;">
+                <h2>Edit Buku</h2>
+                <form class="edit-form">
+                    <span>
+                        <label for="editTitle">Judul Buku</label>
+                        <input type="text" id="editTitle" name="title" required />
+                    </span>
+                    <span>
+                        <label for="editAuthor">Penulis</label>
+                        <input type="text" id="editAuthor" name="author" required />
+                    </span>
+                    <span>
+                        <label for="editYear">Tahun</label>
+                        <input type="text" id="editYear" name="year" required />
+                    </span>
+                    <div class="completed">
+                        <label for="editIsComplete">Selesai dibaca</label>
+                        <input type="checkbox" id="editIsComplete" class="checkbox" name="isComplete" />
+                    </div>
+                    <button type="button" class="update-button">Perbarui</button>
+                    <button type="button" class="cancel-button">Batal</button>
+                </form>
+            </div>
+            <div class="container-search">
+                <input type="search" placeholder="Cari berdasarkan judul" class="search-input" />
+                <button class="search-button">Cari</button>
+            </div>
+            <div class="container-bookshelf">
+                <h3 class="wrapper-book">BELUM SELESAI DIBACA</h3>
+                <div class="bookshelf bookshelf-1-not-yet">
+                    <ul class="list-bookshelf-1-not-yet"></ul>
+                </div>
+            </div>
+            <div class="container-bookshelf">
+                <h3 class="wrapper-book">SELESAI DIBACA</h3>
+                <div class="bookshelf bookshelf-2-already-read">
+                    <ul class="list-bookshelf-2-already-read"></ul>
+                </div>
+            </div>
+        </main>
+    </body>
+
+    </html>
+</body>
+<script src="script.js"></script>
+
+</html>
