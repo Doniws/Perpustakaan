@@ -2,10 +2,10 @@
 Perpustakaan
 misi dicoding
 
-1 .Mampu Menambahkan Data Buku baru.
-2 .Memiliki minimal Dua Rak Buku. Yakni “Belum selesai dibaca” dan “Selesai dibaca”.
-3 .Dapat Memindahkan Buku antar Rak.
-4 . Dapat Menghapus Data Buku.
-5 . Manfaatkan localStorage dalam Menyimpan Data Buku
+1 .Mampu Menambahkan Data Buku baru.  <br>
+2 .Memiliki minimal Dua Rak Buku. Yakni “Belum selesai dibaca” dan “Selesai dibaca”.<br>
+3 .Dapat Memindahkan Buku antar Rak.<br>
+4 . Dapat Menghapus Data Buku.<br>
+5 . Manfaatkan localStorage dalam Menyimpan Data Buku<br>
 
 
